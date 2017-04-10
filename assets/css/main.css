@@ -4161,6 +4161,7 @@
 #app-store {
 	height: 45px;
 	width: auto;
+	transition: .25s;
 }
 
 #app-store:hover {
