@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Fractal by HTML5 UP</title>
+		<title>DiscoverView</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -20,12 +20,12 @@
 			<header id="header">
 				<div class="content">
 					<h1><a href="#">DiscoverView</a></h1>
-					<p>Want to know what pictures people </br>
-						around you are posting to Instagram? </br> Just drop a pin and find out!</p>
+					<p>Use pictures taken nearby </br>
+						as inspiration for places to visit </br>
+					and things to do!</p>
 					<ul class="actions">
-						<li class="app-store"><img id="app-store" src="./images/app_store.png"/></li>
+						<li class="app-store"><a  onclick="comingsoon()"><img id="app-store" src="./images/app_store.png"/></a></li>
 						<li><a href="#one" class="button icon fa-chevron-down scrolly">Learn More</a></li>
-						<li><a href="https://github.com/justinkizer/DiscoverView" ><span id="github" class="icon fa-github"></a></li>
 					</ul>
 				</div>
 				<div class="image phone"><div class="inner"><img src="images/background/main.png" alt="" /></div></div>
@@ -34,8 +34,9 @@
 		<!-- One -->
 			<section id="one" class="wrapper style2 special">
 				<header class="major">
-					<h2>See pictures taken nearby<br />
-					to inspire you to find stuff to do</h2>
+					<h2>Want to know what photos<br />
+					people around you are <br />posting to Instagram? <br />
+					Drop a pin and find out!</h2>
 				</header>
 				<ul class="icons major">
 					<li><span class="icon fa-instagram"><span class="label">Shoot</span></span></li>
@@ -50,21 +51,21 @@
 						<div class="image"><img src="images/mapmark2.png" alt="" /></div>
 						<div class="content">
 							<h3>Use the map</h3>
-							<p>See your location on a map and checkout photos taken nearby. Drop a pin on the map to see photos taken within 100m of the pin! Get an idea of what is around!</p>
+							<p>DiscoverView accesses your phone's GPS to locate your position and show you recent Instagram photos taken nearby. You can also drop pins on the map to see photos from those locations.</p>
 						</div>
 					</section>
 					<section class="spotlight">
 						<div class="image"><img src="images/photo.png" alt="" /></div>
 						<div class="content">
-							<h3>See the photos</h3>
-							<p>See the list of photos. Click on any photo to see it bigger and have the option to see where that photo was taken on the map. Can save photos to your phone as well as link to that photo on Instagram if you want to follow that user.</p>
+							<h3>Get inspired</h3>
+							<p>Scroll through photos to get a sense of the place. </br> Click on any photo to make it bigger and display a button to see where that photo was taken on the map. You can save photos to your phone as well as view photos directly on Instagram.</p>
 						</div>
 					</section>
 					<section class="spotlight">
 						<div class="emulator"><iframe src="https://appetize.io/embed/0vwrnjztg29cnd6j7wdnjnuj78?device=iphone6s&scale=50&autoplay=false&orientation=portrait&deviceColor=white" width="208px" height="435px" frameborder="0" scrolling="no"></iframe></div>
 						<div class="content">
 							<h3>Test it out!</h3>
-							<p>Click on the phone screen on the left to test out DiscoverView! </p>
+							<p>Click on the phone screen on the left to test out DiscoverView. Use the navigation bar at the bottom to toggle between the map, home, and photo views. When viewing photos, hold down for options to save photo to camera roll or see on Instagram. </p>
 						</div>
 					</section>
 					<section class="special">
@@ -72,7 +73,6 @@
 							<li><img id="insta" src="./images/insta.png" /><span class="label">Instagram API</span></li>
 							<li><img id="react" src="./images/react.png" /><span class="label">Built with React Native</span></li>
 							<li><img id="react" src="./images/airbnb.png" /><span class="label">React Native Maps</span></li>
-							<li><span class="icon fa-cloud"><span class="label">Elit fusce consequat</span></span></li>
 					</section>
 				</div>
 			</section>
@@ -80,12 +80,12 @@
 		<!-- Three -->
 			<section id="three" class="wrapper style2 special">
 				<header class="major">
-					<h2>Magna leo sapien gravida</h2>
-					<p>Gravida at leo elementum elit fusce accumsan dui libero, quis vehicula<br />
-					lectus ultricies eu. In convallis amet leo sapien iaculis efficitur.</p>
+					<h2>Find your view</h2>
+					<p>Simple yet powerful, DiscoverView can lead you to your next <br />
+					favorite place. Where will you go?</p>
 				</header>
 				<ul class="actions">
-					<li><a href="#" class="button special icon fa-download">Download</a></li>
+					<li><a href="https://github.com/justinkizer/DiscoverView" class="button special icon fa-github">GitHub</a></li>
 					<li><a href="#" class="button">Learn More</a></li>
 				</ul>
 			</section>
@@ -431,6 +431,12 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+
+			<script>
+				function comingsoon(){
+					alert("Coming soon to the app store!")
+				}
+			</script>
 
 	</body>
 </html>
