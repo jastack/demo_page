@@ -4161,5 +4161,21 @@
 #app-store {
 	height: 45px;
 	width: auto;
+}
 
+#insta {
+	height: 50px;
+	width: auto;
+	margin-right: 18px;
+}
+
+#react {
+	height: 50px;
+	width: auto;
+	margin-right: 18px;
+}
+
+#github {
+	height: 45px;
+	width: auto;
 }
