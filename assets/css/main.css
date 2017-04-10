@@ -14,7 +14,7 @@
 		border: 0;
 		font-size: 100%;
 		font: inherit;
-		vertical-align: baseline;
+		vertical-align: middle;
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -2483,9 +2483,13 @@
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
+			align-items: center;
+			justify-content: center;
 		}
 
 			ul.icons li {
+				align-items: center;
+				justify-content: center;
 				display: inline-block;
 				padding: 0 1.5em 0 0;
 			}
@@ -4149,3 +4153,13 @@
 		}
 
 	}
+
+	.emulator {
+		margin-right: 48px;
+	}
+
+#app-store {
+	height: 45px;
+	width: auto;
+
+}
