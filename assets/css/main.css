@@ -2026,7 +2026,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #5ca3e8;
+				background-color: #e89a4c;
 			}
 
 			input[type="submit"].special:active,
@@ -3202,7 +3202,7 @@
 					.wrapper.style2 input[type="button"].special:hover,
 					.wrapper.style2 button.special:hover,
 					.wrapper.style2 .button.special:hover {
-						background-color: #5ca3e8;
+						background-color: #e89a4c;
 					}
 
 					.wrapper.style2 input[type="submit"].special:active,
@@ -3416,7 +3416,7 @@
 					.wrapper.style3 input[type="button"].special:hover,
 					.wrapper.style3 button.special:hover,
 					.wrapper.style3 .button.special:hover {
-						background-color: #5ca3e8;
+						background-color: #e89a4c;
 					}
 
 					.wrapper.style3 input[type="submit"].special:active,
